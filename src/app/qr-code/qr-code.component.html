@@ -1,0 +1,10 @@
+<div class="container">
+    <h1>QR Code Generator</h1>
+    <div>
+      <label for="qrData">Enter data to encode:</label>
+      <input type="text" id="qrData" [(ngModel)]="qrData" placeholder="Enter text or URL">
+    </div>
+    <div *ngIf="qrData">
+      <qrcode [qrdata]="qrData" [width]="500" [errorCorrectionLevel]="'M'"></qrcode>
+    </div>
+  </div>
