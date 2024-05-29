@@ -1,6 +1,7 @@
 # QrCodeProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+Figma URL: https://www.figma.com/design/OtMabOOG9VCN4NSMaQjkyH/qr-code-component?node-id=0-1803&t=97SFTItHB2wV87hU-0 
 
 ## Development server
 
